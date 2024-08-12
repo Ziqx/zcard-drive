@@ -8,7 +8,6 @@ const server = new NextDriveServer(
     {
         port: 4002,
         apiKey: process.env.API_KEY!,
-        folder: 'drive',
         options: {
             cors: true
         }
